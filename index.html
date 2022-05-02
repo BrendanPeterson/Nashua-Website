@@ -105,19 +105,21 @@
             </div>
         </section>
         <!--Contact Us-->
-        <form action="https://formsubmit.co/brendanpeterson96@gmail.com"
-              method="post"
-              enctype="multipart/form-data"
-              name="ContactForm">
+        
 
             <section class="signup-section" id="signup">
                 <div class="contact container-cu">
                     <h2 class=" contact text-white mb-4">Contact Us!</h2>
-                        <div class="login">
+                    <div class="login">
+                        <form action="https://formsubmit.co/brendanpeterson96@gmail.com"
+                              method="POST"
+                              enctype="multipart/form-data"
+                              name="ContactForm">
                             <input type="text" placeholder="Your Name*" class="input" id="name" required />
                             <input type="text" placeholder="Your Email Address *" class="input" required />
                             <input type="text" placeholder="Phone Number (Optional)" class="input" required />
-                        </div>
+                        </form>
+                    </div>
                         <div class="subject">
                             <input id="subject" type="text" placeholder="Subject *" class="input" required />
                         </div>
@@ -127,7 +129,7 @@
                         <div class="btn-contact" onclick="clearFields();">Send Message</div>
                 </div>
             </section>
-        </form>
+        
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">

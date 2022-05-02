@@ -11672,6 +11672,7 @@ body {
         color: #fff;
         text-transform: uppercase;
         cursor: pointer;
+        padding: .2rem;
     }
     .input:focus, .msg .area:focus {
         border: 0.125px solid #1a72bb;

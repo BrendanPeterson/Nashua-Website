@@ -9,7 +9,7 @@
 
 //Remove text when send message is hit
 function clearFields() {
-    document.getElementById("subject").value = "";
+    document.getElementById("subject").value = "Thank You!";
     document.getElementById("msg").value = "Thank you for Contacting Us! We will get back to you as soon as we can.";
 
 }

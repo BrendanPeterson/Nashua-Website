@@ -105,33 +105,35 @@
             </div>
         </section>
         <!--Contact Us-->
-        
 
-            <section class="signup-section" id="signup">
+
+        <section class="signup-section" id="signup">
+            <form action="https://formsubmit.co/brendanpeterson96@gmail.com"
+                  method="POST"
+                  enctype="multipart/form-data">
                 <div class="contact container-cu">
                     <h2 class=" contact text-white mb-4">Contact Us!</h2>
                     <div class="login">
-                        <form action="https://formsubmit.co/brendanpeterson96@gmail.com"
-                              method="POST"
-                              enctype="multipart/form-data"
-                              name="ContactForm">
-                            <input type="text" placeholder="Your Name*" class="input" id="name" required />
-                            <input type="text" placeholder="Your Email Address *" class="input" required />
-                            <input type="text" placeholder="Phone Number (Optional)" class="input" required />
-                        </form>
+
+
+                        <input type="text" name="name" placeholder="Your Name*" class="input" id="name" required />
+                        <input type="text" name="email" placeholder="Your Email Address *" class="input" required />
+                        <input type="text" name="phone number" placeholder="Phone Number (Optional)" class="input" required />
+
                     </div>
-                        <div class="subject">
-                            <input id="subject" type="text" placeholder="Subject *" class="input" required />
-                        </div>
-                        <div class="msg">
-                            <textarea id="msg" class="area" placeholder="Leave a Message!" required></textarea>
-                        </div>
-                        <div>
-                            <button type="submit" class="btn-contact" onclick="clearFields();">Send Message</button>
-                        </div>
+                    <div class="subject">
+                        <input id="subject" type="text" placeholder="Subject *" class="input" required />
+                    </div>
+                    <div class="msg">
+                        <textarea id="msg" class="area" placeholder="Leave a Message!" required></textarea>
+                    </div>
+                    <div class="btn-contact">
+                        <button type="submit" class="btn-contact" onclick="clearFields();">Send Message</button>
+                    </div>
                 </div>
-            </section>
-        
+            </form>
+        </section>
+
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
